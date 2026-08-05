@@ -1,0 +1,11 @@
+{
+  "name": "meu-bot-completo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "node-fetch": "^2.7.0",
+    "sodium-native": "^4.0.1"
+  }
+}
