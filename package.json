@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord completo de vendas e gerenciamento",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@discordjs/voice": "^0.16.1",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.2",
+    "fs-extra": "^11.2.0"
+  }
+}
